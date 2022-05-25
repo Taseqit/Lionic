@@ -1,0 +1,211 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 1200px;
+    font-family: 'font', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.conteiner {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.section-descr {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.section-offset {
+    padding-top: 87px;
+    padding-bottom: 160px;
+}
+
+.header {
+    padding: 36px 0;
+}
+
+.header__conteiner {
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: auto;
+}
+.header__nav {
+    margin-right: 52px;
+}
+.header__list {
+}
+.header__item:not(:last-child) {
+ margin-right: 52px;
+}
+.header__link {
+}
+.header__btn {
+}
+.btn {
+}
+.main {
+}
+.hero {
+}
+.hero__content {
+}
+.hero__title {
+}
+.hero__descr {
+}
+.hero__btn {
+}
+.hero__secure {
+}
+.services {
+}
+
+.services__title {
+}
+
+.services__descr {
+}
+.section-descr {
+}
+.services__list {
+}
+.services__item {
+}
+.services__item-icon {
+}
+.services__item-title {
+}
+.services__item-descr {
+}
+.articles {
+}
+.articles__title {
+}
+.articles__list {
+}
+.articles__item {
+}
+.blog__preview {
+}
+.blog__preview-img {
+}
+.blog__preview-text {
+}
+.blog__preview-time {
+}
+.blog__preview-title {
+}
+.blog__preview-descr {
+}
+.clients {
+}
+.clients__title {
+}
+.clients__list {
+}
+.clients__item {
+}
+.clients__item-descr {
+}
+.clients__user {
+}
+.clients__avatar {
+}
+.clients__avatar-img {
+}
+.clients__text {
+}
+.clients__name {
+}
+.client__post {
+}
+.contacts {
+}
+.contacts__title {
+}
+.Contacts__list {
+}
+.contacts__item {
+}
+.contacts__item-caption {
+}
+.contacts__item-text {
+}
+.contacts__item-link {
+}
+.join-us {
+}
+.footer {
+}
+.container {
+}
+.footer__left {
+}
+.footer__logo {
+}
+.footer__copy {
+}
+.footer__right {
+}
+.footer__nav {
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__link {
+}
+.social {
+}
+.social__item {
+}
+.social__link {
+}
+.social__link-tw {
+}
+.social__link-linkedin {
+}
+.social__link-mail {
+}

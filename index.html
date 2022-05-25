@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lionic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="conteiner">
+        <div class="conteiner flex header__conteiner">
             <a class="header__logo" href="#">
                 <img class="header__logo" src="img/logo.svg" alt="logo">
             </a>
             <nav class="header__nav">
-                <ul class="header__list">
+                <ul class="header__list list-reset flex">
                     <li class="header__item">
                         <a href="#" class="header__link">Home</a>
                     </li>
@@ -52,11 +54,11 @@
             </div>
         </section>
 
-        <section id="services" class="services">
+        <section class="services section-offset" id="services">
             <div class="conteiner">
                 <h2 class="services__title section-title">Services</h2>
                 <p class="services__descr section-descr">Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.</p>
-                <ul class="services__list">
+                <ul class="services__list list-reset">
                     <li class="services__item">
                         <svg class="services__item-icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -101,10 +103,10 @@
             </div>
         </section>
 
-        <section id="articles" class="articles">
+        <section class="articles section-offset" id="articles">
             <div class="conteiner">
                 <h2 class="articles__title section-title">Articles</h2>
-                <ul class="articles__list">
+                <ul class="articles__list list-reset">
                     <li class="articles__item">
                         <article class="blog__preview">
                             <img src="img/blog1.jpg" alt="Blog photo 1" class="blog__preview-img">
@@ -149,10 +151,10 @@
             </div>
         </section>
 
-        <section id="clients" class="clients">
+        <section class="clients section-offset" id="clients">
             <div class="conteiner">
                 <h2 class="clients__title section-title">Clients</h2>
-                <ul class="clients__list">
+                <ul class="clients__list list-reset">
                     <li class="clients__item">
                         <p class="clients__item-descr">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel illum dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.</p>
                         <div class="clients__user">
@@ -199,12 +201,12 @@
             </div>
         </section>
 
-        <section id="contacts" class="contacts">
+        <section class="contacts section-offset" id="contacts">
             <div class="conteiner">
                 <h2 class="contacts__title section-title">Contacts</h2>
             </div>
             <address>
-                <ul class="Contacts__list">
+                <ul class="Contacts__list list-reset">
                     <li class="contacts__item">
                         <strong class="contacts__item-caption">Visit Us</strong>
                         <p class="contacts__item-text">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.</p>
@@ -224,7 +226,7 @@
             </address>
         </section>
 
-        <section id="join-us" class="join-us">
+        <section class="join-us" id="join-us">
 
         </section>
     </main>
@@ -241,7 +243,7 @@
 			</div>
 			<div class="footer__right">
 				<nav class="footer__nav">
-					<ul class="footer__list">
+					<ul class="footer__list list-reset">
 						<li class="footer__item">
 							<a href="#" target="_blank" class="footer__link">About Us</a>
 						</li>
@@ -256,7 +258,7 @@
 						</li>
 					</ul>
 				</nav>
-				<ul class="social">
+				<ul class="social list-reset">
 					<li class="social__item">
                         <a href="#" class="social__link social__link-tw"></a>
                     </li>
