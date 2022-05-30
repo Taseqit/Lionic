@@ -126,8 +126,6 @@ img {
     margin-right: 52px;
 }
 
-.header__list {}
-
 .header__item:not(:last-child) {
     margin-right: 52px;
 }
@@ -137,10 +135,6 @@ img {
     color: #1c1c1c;
     font-size: 15px;
 }
-
-.header__btn {}
-
-.main {}
 
 
 /* hero */
@@ -209,8 +203,6 @@ img {
 .services__descr {
     text-align: center;
 }
-
-.services__list {}
 
 .services__item {
     flex-direction: column;
@@ -353,8 +345,6 @@ img {
     border-radius: 100%;
 }
 
-.clients__text {}
-
 .clients__name {
     font-weight: 600;
     font-size: 17px;
@@ -375,13 +365,9 @@ img {
     border-bottom: 1px solid #dadada;
 }
 
-.contacts__title {}
-
 .contacts__address {
     font-style: normal;
 }
-
-.contacts__list {}
 
 .contacts__item {
     flex-direction: column;
@@ -428,8 +414,6 @@ img {
     color: #787878;
 }
 
-.join-us {}
-
 
 /* footer */
 
@@ -461,8 +445,6 @@ img {
     margin-right: 58px;
 }
 
-.footer__list {}
-
 .footer__item:not(last-child) {
     margin-right: 28px;
 }
@@ -473,10 +455,6 @@ img {
     line-height: 20px;
     color: #787878;
 }
-
-.social {}
-
-.social__item {}
 
 .social__item:not(:last-child) {
     margin-right: 32px;
