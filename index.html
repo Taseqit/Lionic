@@ -226,8 +226,40 @@
             </div>
         </section>
 
-        <section class="join-us" id="join-us">
-
+        <section class="join-us section-offset" id="join-us">
+            <div class="container">
+                <h2 class="join-us__title section-title">Join us</h2>
+                <p class="join-us__descr section-descr">Take control of your paid subscriptions today!</p>
+                <form class="join-us__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <div class="join-us__form-top flex">
+                        <div class="join-us__form-left flex">
+                            <input class="join-us__form-input" type="text" name="name" placeholder="Name" required></input>
+                            <input class="join-us__form-input" type="email" name="Email" placeholder="E-mail" required></input>
+                            <input class="join-us__form-input" type="tel" name="phone" placeholder="Phone" required></input>
+                            <select class="join-us__form-input" name="country">
+                                <option value="Country" disabled selected>Country</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="United States">United States</option>
+                                <option value="France">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Estonia">Estonia</option>
+                            </select>
+                        </div>
+                        <div class="join-us__form-right">
+                            <textarea class="join-us__form-textarea" name="comment" placeholder="Comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="join-us__form-bottom flex form-bottom">
+                        <div class="form-bottom__wrapper flex">
+                            <button class="form-bottom__btn btn btn-reset">GET STARTED</button>
+                            <label class="form-bottom__check" for="">
+                                <input type="checkbox" required>I agree with the <a class="form-bottom__link" href="#">user agreement</a>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 

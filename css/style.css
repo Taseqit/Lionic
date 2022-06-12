@@ -303,8 +303,6 @@ img {
     margin-bottom: 42px;
 }
 
-.clients__list {}
-
 .clients__item {
     flex-direction: column;
     width: 370px;
@@ -412,6 +410,95 @@ img {
     font-size: 14px;
     line-height: 180%;
     color: #787878;
+}
+
+
+/* join-us */
+
+.join-us {
+    border-bottom: 1px solid #dadada;
+}
+
+.join-us__title,
+.join-us__descr {
+    text-align: center;
+}
+
+.join-us__descr {
+    margin-bottom: 30px;
+}
+
+.join-us__form {
+    padding: 0 55px;
+}
+
+.join-us__form-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.join-us__form-left {
+    flex-wrap: wrap;
+    width: 49%;
+    justify-content: space-between;
+}
+
+.join-us__form-right {
+    width: 49%;
+}
+
+.join-us__form-input {
+    height: 60px;
+    width: 251px;
+    padding: 16px 28px;
+    border: 1px solid #dadada;
+    border-radius: 50px;
+}
+
+.join-us__form-input:nth-child(1) {
+    margin-bottom: 19px;
+}
+
+.join-us__form-textarea {
+    padding: 16px 28px;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.join-us__form-bottom {
+    justify-content: flex-end;
+}
+
+.form-bottom__wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-bottom__btn {
+    min-width: 230px;
+    margin-bottom: 9px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.form-bottom__check {
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.form-bottom__check input {
+    margin-right: 8px;
+}
+
+.form-bottom__link {
+    color: #3172b9;
+    border-bottom: 1px solid #3172b9;
 }
 
 
